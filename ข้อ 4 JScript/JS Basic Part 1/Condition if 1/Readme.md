@@ -1,9 +1,17 @@
-# แบบฝึกหัด
+## CodeCamp #15
 
-## Browser จะโชว์ข้อความ “Hello Codecamp #5” ไหม
+### นาย ประกาศิต กางถิ่น
 
-if ("0")
+---
 
-{alert('Hello Codecamp #5');
+#### โจทย์การบ้านที่ทำ
 
-}
+Browser จะโชว์ข้อความ “Hello Codecamp #5” ไหม
+
+> if ("0") {
+>
+> alert('Hello Codecamp #5');
+>
+> }
+
+ขึ้นโชว์ข้อความเมื่อนำโค้ดด้านบนมาใส่
