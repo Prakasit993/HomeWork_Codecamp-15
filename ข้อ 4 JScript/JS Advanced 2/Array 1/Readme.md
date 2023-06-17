@@ -8,3 +8,5 @@
 
 - ผลลัพธ์ของความยาว array คืออะไร
   ![Alt text](image.png)
+
+      alert 4 array
