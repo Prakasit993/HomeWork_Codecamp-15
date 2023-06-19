@@ -7,6 +7,7 @@
 #### โจทย์การบ้านที่ทำ
 
 ถ้าเรามี Object
+
 ![Alt text](image.png)
 
 - ให้เขียน Destrcutring assignment ที่ให้

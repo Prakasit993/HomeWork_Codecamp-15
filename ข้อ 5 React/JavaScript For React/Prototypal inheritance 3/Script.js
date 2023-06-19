@@ -6,6 +6,4 @@ let animal = {
 let rabbit = {
   __proto__: animal,
 };
-rabbit.eat();
-
-// ตอบ. rabbit ได้ {full: true}
+rabbit.eat(); // ตอบ. rabbit ได้ {full: true}

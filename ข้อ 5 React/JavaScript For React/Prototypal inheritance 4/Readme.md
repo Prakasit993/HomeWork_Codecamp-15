@@ -10,10 +10,4 @@
 
 ![Alt text](image.png)
 ![Alt text](image-1.png)
-
-// This one found the food
-speedy.eat("apple");
-alert( speedy.stomach ); // apple
-
-// This one also has it, why? fix please.
-alert( lazy.stomach ); // apple
+![Alt text](image-2.png)

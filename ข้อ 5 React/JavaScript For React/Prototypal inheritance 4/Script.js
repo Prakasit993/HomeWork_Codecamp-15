@@ -7,12 +7,12 @@ let hamster = {
 };
 
 let speedy = {
-  stomach: [], // <<= (เพิ่มบรรทัดนี้) แก้ไขโดยการกำหนดให้มี stomach เป็นของตัวเอง
+  stomach: [], // แก้ไขโดยการกำหนดให้มี stomach เป็นของตัวเอง
   __proto__: hamster,
 };
 
 let lazy = {
-  stomach: [], // <<= (เพิ่มบรรทัดนี้) แก้ไขโดยการกำหนดให้มี stomach เป็นของตัวเอง
+  stomach: [], // แก้ไขโดยการกำหนดให้มี stomach เป็นของตัวเอง
   __proto__: hamster,
 };
 
@@ -21,4 +21,4 @@ speedy.eat("apple");
 alert(speedy.stomach); // apple
 
 // This one also has it, why? fix please.
-alert(lazy.stomach); // apple <<=(เมื่อทั้งสอง object มี stomach ของตัวเอง,speedyก็ไม่ต้องแชร์appleกับlazy=[])
+alert(lazy.stomach); // apple (เมื่อทั้งสอง object มี stomach ของตัวเอง, speedy ก็ไม่ต้องแชร์ apple กับ lazy=[])
